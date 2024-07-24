@@ -105,11 +105,11 @@ Your journey will take you through the wildness of the American Midwest and acro
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > The value of the drovers variable is the return value after calling the function hireDrovers with the argument cattleToDrive.
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > in the forof loop 'drovers' is the object that is being iterated over and  'drover' is the variable defining the current iteration.
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   > https://www.loom.com/share/6e60417c61d74b3b965d0da0f0a1b0b4?sid=16a1dc41-745a-4ce2-9d78-0bd91d4fcb48
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -117,11 +117,11 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > this for loop sets a counter variable 'forestNumber'  to 0 and increments by 1 everytime it runs the code inside the curly brackets (forestNumber++); Which in this case pushes the string "forest" into the array 'journey' every time it iterates. when the 'forestNumber' variable is no longer less than the value found in the 'forests' key inside the 'areas' object  the code exits the for loop and continues on with the code.
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > the 'database' variable is an object with 2 elements, one with a key of 'cattleTypes' and another with the key 'drovers' . the element with the key 'cattleTypes' has a value of an array of objects that have 2 elements which are two key values pairs. the other element with the key 'drovers' in the  'database' object is another array of objects with 4 key value pairs.
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   >  'herdSize' is defining the parameter of the function 'hireDrovers()' it gets its value when the function is called and the argument is passed in.
 
 
 ## Final Step
